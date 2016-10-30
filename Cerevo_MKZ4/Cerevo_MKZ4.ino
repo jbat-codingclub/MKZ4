@@ -35,7 +35,7 @@
 #include <ESP8266WebServer.h>
 
 /* Set these to your desired credentials. */
-const char *ssid = "MKZ4";
+const char *ssid = "MKZ4_TAKAGI";
 const char *password = "";
 
 ESP8266WebServer server(80);
@@ -50,8 +50,8 @@ ESP8266WebServer server_8080(8080);
 #define command_back  2
 #define forward       0x01
 #define reverse       0x02
-#define servo_left    65
-#define servo_right   110
+#define servo_left    70
+#define servo_right   130
 
 #define LED_H       (digitalWrite( 12, HIGH ))
 #define LED_L       (digitalWrite( 12, LOW ))
